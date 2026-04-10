@@ -5,6 +5,8 @@ tags: [git, talks]
 source: https://desarrolla2.com/post/conquista-la-galaxia-con-git
 ---
 
+# [Conquista la galaxia con GIT](https://desarrolla2.com/post/conquista-la-galaxia-con-git)
+
 1. A continuación mi tercera presentación que dí en el grupo de trabajo de Symfony Diciembre
     de 2012.
   
