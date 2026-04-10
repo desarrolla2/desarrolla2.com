@@ -1,0 +1,4 @@
+Contact: https://www.linkedin.com/in/desarrolla2/
+Expires: 2027-01-01T00:00:00.000Z
+Preferred-Languages: es, en
+Canonical: https://desarrolla2.com/.well-known/security.txt

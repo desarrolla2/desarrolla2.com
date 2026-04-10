@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memorias de un desarrollador — desarrolla2.com</title>
+  <meta name="description" content="Blog personal de Daniel González sobre PHP, Symfony, Linux y vida profesional. Activo de enero de 2010 a junio de 2019, con 100 artículos publicados." />
+  <meta name="author" content="Daniel González" />
+  <meta name="theme-color" content="#872900" />
+  <link rel="canonical" href="https://desarrolla2.com/" />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://desarrolla2.com/" />
+  <meta property="og:title" content="Memorias de un desarrollador — desarrolla2.com" />
+  <meta property="og:description" content="Blog personal de Daniel González sobre PHP, Symfony, Linux y vida profesional. Activo de enero de 2010 a junio de 2019, con 100 artículos publicados." />
+  <meta property="og:image" content="https://desarrolla2.com/logo.png" />
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Memorias de un desarrollador — desarrolla2.com" />
+  <meta name="twitter:description" content="Blog personal de Daniel González sobre PHP, Symfony, Linux y vida profesional. Activo de enero de 2010 a junio de 2019, con 100 artículos publicados." />
+  <meta name="twitter:image" content="https://desarrolla2.com/logo.png" />
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://desarrolla2.com/#website",
+        "url": "https://desarrolla2.com/",
+        "name": "Memorias de un desarrollador",
+        "description": "Blog personal de Daniel González sobre PHP, Symfony, Linux y vida profesional.",
+        "inLanguage": "es",
+        "author": { "@id": "https://desarrolla2.com/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://desarrolla2.com/#person",
+        "name": "Daniel González",
+        "alternateName": "desarrolla2",
+        "url": "https://desarrolla2.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/desarrolla2/",
+          "https://github.com/desarrolla2",
+          "https://devtia.com/"
+        ],
+        "jobTitle": "Technology Leader",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Stronghold Partners"
+        },
+        "knowsAbout": ["PHP", "Symfony", "Linux", "Software Architecture"]
+      }
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="styles/bootstrap.min.css" />
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <picture>
+        <source srcset="logo.webp" type="image/webp" />
+        <img src="logo.png" alt="desarrolla2.com" width="72" height="72" style="margin-bottom:1.25rem;" />
+      </picture>
+      <div class="badge-years">2010 – 2019</div>
+      <h1>Memorias de un desarrollador</h1>
+      <p class="domain">desarrolla2.com</p>
+      <p class="lead">
+        Un blog personal sobre programación, Linux y vida profesional,
+        escrito a lo largo de casi una década por Daniel González.
+      </p>
+      <nav class="hero-social">
+        <a href="https://www.linkedin.com/in/desarrolla2/" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/desarrolla2" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+        <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          devtia.com
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Temática -->
+  <section>
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-md-6">
+          <p class="section-label">Contenido</p>
+          <h2>De qué iba el blog</h2>
+          <p>
+            El blog nació como cuaderno de aprendizaje y fue evolucionando
+            hacia la reflexión profesional. Los temas más recurrentes eran
+            el ecosistema PHP/Symfony, la administración de sistemas Linux
+            y la cultura de trabajo en <strong style="color:var(--color-text)">devtia</strong>.
+          </p>
+          <p>
+            Con el tiempo los artículos técnicos convivieron con piezas sobre
+            reclutamiento, compensación y cómo funciona una empresa de software
+            por dentro — una visión poco habitual para un blog de desarrollador.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p class="section-label">Etiquetas frecuentes</p>
+          <div class="tech-grid">
+            <span class="tech-tag primary">PHP</span>
+            <span class="tech-tag primary">Symfony</span>
+            <span class="tech-tag primary">Linux</span>
+            <span class="tech-tag">Doctrine ORM</span>
+            <span class="tech-tag">Twig</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">GNOME</span>
+            <span class="tech-tag">devtia</span>
+            <span class="tech-tag">Carrera profesional</span>
+            <span class="tech-tag">Talks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section>
+    <div class="container">
+      <p class="section-label">En números</p>
+      <h2>Una década de posts</h2>
+      <p>Del primer artículo en enero de 2010 al último en junio de 2019.</p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="number">100</div>
+          <div class="label">Artículos publicados</div>
+        </div>
+        <div class="stat-card">
+          <div class="number">9½</div>
+          <div class="label">Años activo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tecnología -->
+  <section>
+    <div class="container">
+      <p class="section-label">Stack técnico</p>
+      <h2>Un desarrollo a medida</h2>
+      <p>
+        El blog no usó ningún CMS existente. Fue un proyecto propio construido desde cero
+        con PHP y Symfony, donde cada funcionalidad —el editor de posts, el sistema de tags,
+        la paginación, el panel de administración— fue implementada y aprendida por el camino.
+        El código evolucionó junto al autor durante casi diez años.
+      </p>
+
+      <div class="row g-4 mt-1">
+        <div class="col-sm-6 col-lg-3">
+          <div class="stack-card">
+            <div class="section-label mb-2">Backend</div>
+            <div class="tech-grid" style="gap:.4rem; margin-top:.5rem;">
+              <span class="tech-tag primary">PHP 7.2</span>
+              <span class="tech-tag primary">Symfony 3.4</span>
+              <span class="tech-tag">Doctrine ORM</span>
+              <span class="tech-tag">Twig</span>
+              <span class="tech-tag">Sonata Admin</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="stack-card">
+            <div class="section-label mb-2">Frontend</div>
+            <div class="tech-grid" style="gap:.4rem; margin-top:.5rem;">
+              <span class="tech-tag primary">Bootstrap 3</span>
+              <span class="tech-tag">jQuery</span>
+              <span class="tech-tag">LESS</span>
+              <span class="tech-tag">Font Awesome</span>
+              <span class="tech-tag">CKEditor</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="stack-card">
+            <div class="section-label mb-2">Build &amp; deploy</div>
+            <div class="tech-grid" style="gap:.4rem; margin-top:.5rem;">
+              <span class="tech-tag">Grunt</span>
+              <span class="tech-tag">Bower</span>
+              <span class="tech-tag">Deployer</span>
+              <span class="tech-tag">Composer</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="stack-card">
+            <div class="section-label mb-2">Datos &amp; tests</div>
+            <div class="tech-grid" style="gap:.4rem; margin-top:.5rem;">
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">PHPUnit</span>
+              <span class="tech-tag">Faker</span>
+              <span class="tech-tag">Doctrine Migrations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Historia / Timeline -->
+  <section>
+    <div class="container">
+      <p class="section-label">Historia</p>
+      <h2>Línea de tiempo</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="year">Enero 2010</span>
+          <p class="event">Primer artículo publicado</p>
+          <p>El blog arranca como espacio de aprendizaje y notas técnicas personales.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2011</span>
+          <p class="event">Año más productivo — 31 posts</p>
+          <p>El mayor volumen de publicaciones de toda la historia del blog.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2012 – 2013</span>
+          <p class="event">Consolidación</p>
+          <p>30 artículos más. El blog madura junto con el ecosistema Symfony 2.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2014 – 2015</span>
+          <p class="event">Pausa casi total</p>
+          <p>Solo 3 publicaciones. El trabajo en devtia absorbe la mayor parte del tiempo.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2016 – 2018</span>
+          <p class="event">Segundo aliento</p>
+          <p>29 artículos nuevos, muchos de ellos sobre cultura de empresa y Symfony 3.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">Junio 2019</span>
+          <p class="event">Último artículo publicado</p>
+          <p>Tras 9 años y medio y 100 entradas, el blog publica su último post.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2025</span>
+          <p class="event">Cierre del blog</p>
+          <p>
+            Se toma la decisión de cerrar el blog. El dominio y el servidor siguen activos
+            y esta página pasa a ser su sustituto.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section>
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-md-8">
+        <p class="section-label">El autor</p>
+        <h2>Daniel González</h2>
+        <p>
+          Desarrollador de software reconvertido en líder tecnológico. Más de 15 años
+          de experiencia recorriendo el camino de programador a CTO, siempre dentro
+          del ecosistema PHP y Symfony.
+        </p>
+        <p>
+          Fundador de <strong style="color:var(--color-text)">PHPMad</strong>, el grupo
+          de usuarios de PHP en Madrid, activo entre 2011 y 2019. Actualmente trabaja
+          en <strong style="color:var(--color-text)">Stronghold Partners</strong> (Madrid)
+          y es también fundador de <strong style="color:var(--color-text)">devtia</strong>.
+        </p>
+        <p>
+          Marido y padre de dos niñas.
+        </p>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <div class="author-links">
+          <a href="https://www.linkedin.com/in/desarrolla2/" target="_blank" rel="noopener noreferrer" class="author-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/desarrolla2" target="_blank" rel="noopener noreferrer" class="author-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer" class="author-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            devtia.com
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Cierre -->
+  <section>
+    <div class="container">
+      <div class="closing-card">
+        <h3>El blog ya no está disponible</h3>
+        <p>
+          <em>Memorias de un desarrollador</em> estuvo activo durante casi diez años,
+          dejando 100 artículos sobre programación, Linux y vida profesional.
+          En 2025 se cerró el blog, aunque el dominio y el servidor permanecen.
+          Gracias a quienes lo leyeron.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <nav aria-label="Redes y contacto">
+        <a href="https://www.linkedin.com/in/desarrolla2/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/desarrolla2" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer">devtia.com</a>
+      </nav>
+      <p>© 2010 – 2025 Daniel González &mdash; desarrolla2.com</p>
+    </div>
+  </footer>
+</body>
+</html>

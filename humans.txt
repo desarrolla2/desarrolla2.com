@@ -1,0 +1,11 @@
+/* TEAM */
+Developer & Author: Daniel González
+Alias: desarrolla2
+LinkedIn: https://www.linkedin.com/in/desarrolla2/
+GitHub: https://github.com/desarrolla2
+Location: Madrid, Spain
+
+/* SITE */
+Last update: 2025
+Language: Spanish
+Doctype: HTML5
