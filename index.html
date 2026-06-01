@@ -62,6 +62,8 @@
 </head>
 <body>
 
+  <div class="scroll-progress" aria-hidden="true"></div>
+
   <!-- Hero -->
   <header class="hero">
     <div class="container">
@@ -71,7 +73,7 @@
       </picture>
       <div class="badge-years">2010 – 2019</div>
       <h1>Memorias de un desarrollador</h1>
-      <p class="domain">desarrolla2.com</p>
+      <p class="domain"><a href="https://desarrolla2.com/">desarrolla2.com</a></p>
       <p class="lead">
         Un blog personal sobre programación, Linux y vida profesional,
         escrito a lo largo de casi una década por Daniel González.
@@ -104,7 +106,7 @@
             El blog nació como cuaderno de aprendizaje y fue evolucionando
             hacia la reflexión profesional. Los temas más recurrentes eran
             el ecosistema PHP/Symfony, la administración de sistemas Linux
-            y la cultura de trabajo en <strong style="color:var(--color-text)">devtia</strong>.
+            y la cultura de trabajo en <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer"><strong>devtia</strong></a>.
           </p>
           <p>
             Con el tiempo los artículos técnicos convivieron con piezas sobre
@@ -150,72 +152,12 @@
     </div>
   </section>
 
-  <!-- Tecnología -->
+  <!-- Historia + Autor -->
   <section>
     <div class="container">
-      <p class="section-label">Stack técnico</p>
-      <h2>Un desarrollo a medida</h2>
-      <p>
-        El blog no usó ningún CMS existente. Fue un proyecto propio construido desde cero
-        con PHP y Symfony, donde cada funcionalidad —el editor de posts, el sistema de tags,
-        la paginación, el panel de administración— fue implementada y aprendida por el camino.
-        El código evolucionó junto al autor durante casi diez años.
-      </p>
-
-      <div class="row g-4 mt-1">
-        <div class="col-sm-6 col-lg-3">
-          <div class="stack-card">
-            <div class="section-label mb-2">Backend</div>
-            <div class="tech-grid" style="gap:.4rem; margin-top:.5rem;">
-              <span class="tech-tag primary">PHP 7.2</span>
-              <span class="tech-tag primary">Symfony 3.4</span>
-              <span class="tech-tag">Doctrine ORM</span>
-              <span class="tech-tag">Twig</span>
-              <span class="tech-tag">Sonata Admin</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="stack-card">
-            <div class="section-label mb-2">Frontend</div>
-            <div class="tech-grid" style="gap:.4rem; margin-top:.5rem;">
-              <span class="tech-tag primary">Bootstrap 3</span>
-              <span class="tech-tag">jQuery</span>
-              <span class="tech-tag">LESS</span>
-              <span class="tech-tag">Font Awesome</span>
-              <span class="tech-tag">CKEditor</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="stack-card">
-            <div class="section-label mb-2">Build &amp; deploy</div>
-            <div class="tech-grid" style="gap:.4rem; margin-top:.5rem;">
-              <span class="tech-tag">Grunt</span>
-              <span class="tech-tag">Bower</span>
-              <span class="tech-tag">Deployer</span>
-              <span class="tech-tag">Composer</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="stack-card">
-            <div class="section-label mb-2">Datos &amp; tests</div>
-            <div class="tech-grid" style="gap:.4rem; margin-top:.5rem;">
-              <span class="tech-tag">MySQL</span>
-              <span class="tech-tag">PHPUnit</span>
-              <span class="tech-tag">Faker</span>
-              <span class="tech-tag">Doctrine Migrations</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Historia / Timeline -->
-  <section>
-    <div class="container">
+      <div class="row g-5">
+        <!-- Línea de tiempo -->
+        <div class="col-md-7">
       <p class="section-label">Historia</p>
       <h2>Línea de tiempo</h2>
       <div class="timeline">
@@ -237,7 +179,7 @@
         <div class="timeline-item">
           <span class="year">2014 – 2015</span>
           <p class="event">Pausa casi total</p>
-          <p>Solo 3 publicaciones. El trabajo en devtia absorbe la mayor parte del tiempo.</p>
+          <p>Solo 3 publicaciones. El trabajo en <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer">devtia</a> absorbe la mayor parte del tiempo.</p>
         </div>
         <div class="timeline-item">
           <span class="year">2016 – 2018</span>
@@ -250,7 +192,7 @@
           <p>Tras 9 años y medio y 100 entradas, el blog publica su último post.</p>
         </div>
         <div class="timeline-item">
-          <span class="year">2025</span>
+          <span class="year">2026</span>
           <p class="event">Cierre del blog</p>
           <p>
             Se toma la decisión de cerrar el blog. El dominio y el servidor siguen activos
@@ -258,48 +200,102 @@
           </p>
         </div>
       </div>
-    </div>
-  </section>
+        </div>
 
-  <!-- Sobre mí -->
-  <section>
-    <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-md-8">
-        <p class="section-label">El autor</p>
-        <h2>Daniel González</h2>
-        <p>
-          Desarrollador de software reconvertido en líder tecnológico. Más de 15 años
-          de experiencia recorriendo el camino de programador a CTO, siempre dentro
-          del ecosistema PHP y Symfony.
-        </p>
-        <p>
-          Fundador de <strong style="color:var(--color-text)">PHPMad</strong>, el grupo
-          de usuarios de PHP en Madrid, activo entre 2011 y 2019. Actualmente trabaja
-          en <strong style="color:var(--color-text)">Stronghold Partners</strong> (Madrid)
-          y es también fundador de <strong style="color:var(--color-text)">devtia</strong>.
-        </p>
-        <p>
-          Marido y padre de dos niñas.
-        </p>
-      </div>
-      <div class="col-md-4 text-center text-md-end">
-        <div class="author-links">
-          <a href="https://www.linkedin.com/in/desarrolla2/" target="_blank" rel="noopener noreferrer" class="author-link">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            LinkedIn
-          </a>
-          <a href="https://github.com/desarrolla2" target="_blank" rel="noopener noreferrer" class="author-link">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-            GitHub
-          </a>
-          <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer" class="author-link">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
-            devtia.com
-          </a>
+        <!-- El autor -->
+        <div class="col-md-5">
+          <p class="section-label">El autor</p>
+          <h2><a href="https://www.linkedin.com/in/desarrolla2/" target="_blank" rel="noopener noreferrer">Daniel González</a></h2>
+          <p>
+            Desarrollador de software reconvertido en líder tecnológico. Más de 15 años
+            de experiencia recorriendo el camino de programador a CTO, siempre dentro
+            del ecosistema PHP y Symfony.
+          </p>
+          <p>
+            Fundador de <strong style="color:var(--color-text)">PHPMad</strong>, el grupo
+            de usuarios de PHP en Madrid activo entre 2011 y 2019, y divulgador habitual
+            en charlas y <em>meetups</em> de la comunidad. Hoy trabaja en
+            <strong style="color:var(--color-text)">Stronghold Partners</strong> (Madrid)
+            y es también fundador de <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer"><strong>devtia</strong></a>.
+          </p>
+          <p>
+            Durante casi diez años, este blog fue su cuaderno de bitácora pública: un lugar
+            donde pensar en voz alta sobre código, sistemas, equipos y oficio. Lo que aquí
+            queda es el rastro de aquel hábito —cien artículos escritos sin prisa, a lo largo
+            de toda una etapa profesional.
+          </p>
+          <p>
+            Fuera del teclado, marido y padre de dos niñas.
+          </p>
+          <div class="author-links">
+            <a href="https://www.linkedin.com/in/desarrolla2/" target="_blank" rel="noopener noreferrer" class="author-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/desarrolla2" target="_blank" rel="noopener noreferrer" class="author-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              GitHub
+            </a>
+            <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer" class="author-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+              devtia.com
+            </a>
+          </div>
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- Stack técnico (nota al pie) -->
+  <section>
+    <div class="container">
+      <p class="section-label">Detrás del blog</p>
+      <h2>Construido a mano</h2>
+      <p>
+        Sin CMS: un proyecto propio en PHP y Symfony que fue creciendo durante casi diez años.
+        Estas fueron, a grandes rasgos, las piezas con las que estaba hecho.
+      </p>
+      <div class="tech-grid">
+        <span class="tech-tag">PHP 7.2</span>
+        <span class="tech-tag">Symfony 3.4</span>
+        <span class="tech-tag">Doctrine ORM</span>
+        <span class="tech-tag">Twig</span>
+        <span class="tech-tag">Sonata Admin</span>
+        <span class="tech-tag">Bootstrap 3</span>
+        <span class="tech-tag">jQuery</span>
+        <span class="tech-tag">LESS</span>
+        <span class="tech-tag">CKEditor</span>
+        <span class="tech-tag">Grunt</span>
+        <span class="tech-tag">Composer</span>
+        <span class="tech-tag">Deployer</span>
+        <span class="tech-tag">MySQL</span>
+        <span class="tech-tag">PHPUnit</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- El archivo -->
+  <section>
+    <div class="container">
+      <p class="section-label">El archivo</p>
+      <h2>Los 100 artículos, preservados</h2>
+      <p>
+        Aunque el blog dinámico ya no está disponible, las 100 entradas se conservan
+        íntegras. Cada una se ha exportado a un fichero en formato
+        <strong style="color:var(--color-text)">Markdown</strong> (<code>.md</code>),
+        con su título, fecha, etiquetas y enlace original en la cabecera, seguido del
+        texto completo del artículo.
+      </p>
+      <p>
+        El conjunto vive en la carpeta <code>archive/</code> del repositorio en GitHub,
+        donde se puede leer y buscar cómodamente.
+      </p>
+      <div class="author-links">
+        <a href="https://github.com/desarrolla2/desarrolla2.com/tree/main/archive" target="_blank" rel="noopener noreferrer" class="author-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M10 4H2v16h20V6H12l-2-2zm0 2 2 2h8v10H4V6h6z"/></svg>
+          Leer el archivo en GitHub
+        </a>
+      </div>
     </div>
   </section>
 
@@ -311,7 +307,7 @@
         <p>
           <em>Memorias de un desarrollador</em> estuvo activo durante casi diez años,
           dejando 100 artículos sobre programación, Linux y vida profesional.
-          En 2025 se cerró el blog, aunque el dominio y el servidor permanecen.
+          En 2026 se cerró el blog, aunque el dominio y el servidor permanecen.
           Gracias a quienes lo leyeron.
         </p>
       </div>
@@ -325,8 +321,93 @@
         <a href="https://github.com/desarrolla2" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://devtia.com/" target="_blank" rel="noopener noreferrer">devtia.com</a>
       </nav>
-      <p>© 2010 – 2025 Daniel González &mdash; desarrolla2.com</p>
+      <p>© 2010 – 2026 <a class="footer-domain" href="https://www.linkedin.com/in/desarrolla2/" target="_blank" rel="noopener noreferrer">Daniel González</a> &mdash; <a class="footer-domain" href="https://desarrolla2.com/">desarrolla2.com</a></p>
     </div>
   </footer>
+
+  <script>
+  (function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Scroll progress bar
+    var bar = document.querySelector('.scroll-progress');
+    if (bar && !reduce) {
+      var ticking = false;
+      function update() {
+        var doc = document.documentElement;
+        var max = doc.scrollHeight - doc.clientHeight;
+        var pct = max > 0 ? (doc.scrollTop || document.body.scrollTop) / max * 100 : 0;
+        bar.style.width = pct + '%';
+        ticking = false;
+      }
+      window.addEventListener('scroll', function () {
+        if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
+      }, { passive: true });
+      update();
+    }
+
+    // Reveal on scroll
+    if ('IntersectionObserver' in window && !reduce) {
+      var blocks = document.querySelectorAll(
+        'section > .container > .section-label,' +
+        'section > .container > h2,' +
+        'section > .container > p,' +
+        'section > .container > .closing-card'
+      );
+      var staggered = document.querySelectorAll(
+        '.stats-grid > .stat-card, .row > [class*="col-"]'
+      );
+
+      function prep(el, stagger) {
+        el.classList.add('reveal');
+        if (stagger) {
+          var i = 0, s = el.previousElementSibling;
+          while (s) { i++; s = s.previousElementSibling; }
+          el.style.transitionDelay = Math.min(i * 90, 540) + 'ms';
+        }
+      }
+      blocks.forEach(function (el) { prep(el, false); });
+      staggered.forEach(function (el) { prep(el, true); });
+
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          var el = e.target;
+          io.unobserve(el);
+          el.classList.add('in-view');
+          var delay = parseFloat(el.style.transitionDelay) || 0;
+          setTimeout(function () {
+            el.classList.remove('reveal', 'in-view');
+            el.style.transitionDelay = '';
+          }, 900 + delay);
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+
+      blocks.forEach(function (el) { io.observe(el); });
+      staggered.forEach(function (el) { io.observe(el); });
+    }
+
+    // Count-up on purely numeric stats
+    if ('IntersectionObserver' in window && !reduce) {
+      var co = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          co.unobserve(e.target);
+          var el = e.target, raw = el.textContent.trim();
+          if (!/^\d+$/.test(raw)) return;
+          var target = parseInt(raw, 10), dur = 1200, start = null;
+          function step(ts) {
+            if (start === null) start = ts;
+            var p = Math.min((ts - start) / dur, 1);
+            el.textContent = String(Math.round((1 - Math.pow(1 - p, 3)) * target));
+            if (p < 1) window.requestAnimationFrame(step);
+          }
+          window.requestAnimationFrame(step);
+        });
+      }, { threshold: 0.6 });
+      document.querySelectorAll('.stat-card .number').forEach(function (el) { co.observe(el); });
+    }
+  })();
+  </script>
 </body>
 </html>

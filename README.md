@@ -2,7 +2,7 @@
 
 Página de cierre de **Memorias de un desarrollador**, el blog personal de Daniel González (@desarrolla2), activo entre enero de 2010 y junio de 2019.
 
-El blog original fue construido con PHP y Symfony y publicó 100 artículos sobre programación, Linux y vida profesional. En 2025 se tomó la decisión de cerrarlo. Esta página estática es su sustituto: un memorial que recoge la historia, las cifras y el stack técnico del proyecto.
+El blog original fue construido con PHP y Symfony y publicó 100 artículos sobre programación, Linux y vida profesional. En 2026 se tomó la decisión de cerrarlo. Esta página estática es su sustituto: un memorial que recoge la historia, las cifras y el stack técnico del proyecto.
 
 ## Archivo
 
